@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Linkgenerator Tobit KNB.exe" version="1.0.0.0" publicKeyToken="84919ba4b7183775" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="TextTemplate.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Linkgenerator Tobit KNB" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Linkgenerator Tobit KNB.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC-Manifestoptionen
+             Wenn Sie die Ebene der Benutzerkontensteuerung für Windows ändern möchten, ersetzen Sie den 
+             Knoten "requestedExecutionLevel" wie folgt.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Durch Angabe des Elements "requestedExecutionLevel" wird die Datei- und Registrierungsvirtualisierung deaktiviert. 
+            Entfernen Sie dieses Element, wenn diese Virtualisierung aus Gründen der Abwärtskompatibilität
+            für die Anwendung erforderlich ist.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Linkgenerator Tobit KNB.exe" size="50664">
+      <assemblyIdentity name="Linkgenerator Tobit KNB" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>+q+SKIdPc7/8RwwhSgtjR22Tr5Zr3ld3FjokBYH1luc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Linkgenerator Tobit KNB.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rl5/qDc7Jz+tB+BIbOv9iMGPlRe6YJwrjmU09dnlPcs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="TextTemplate.ico" size="43451">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>73B0slCytYXFNla9w0xLBUhV/GzNhs4QMBUfLEeTlS8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- Eine Liste der Windows-Versionen, unter denen diese Anwendung getestet
+           und für die sie entwickelt wurde. Wenn Sie die Auskommentierung der entsprechenden Elemente aufheben,
+           wird von Windows automatisch die kompatibelste Umgebung ausgewählt. -->
+      <!-- Windows Vista -->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}" />-->
+      <!-- Windows 7 -->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}" />-->
+      <!-- Windows 8 -->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}" />-->
+      <!-- Windows 8.1 -->
+      <!--<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}" />-->
+      <!-- Windows 10 -->
+      <!--<supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=OESTMANN\stefan.kaiser" issuerKeyHash="61c6fdd8ed2cf9235c03598160541c1c44a7e39f" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>LfQCrhd+1CHO57cIAXu9ry3XbC3XU7Ao8/Gm1AgHeF4=</DigestValue></Reference></SignedInfo><SignatureValue>zTa2z+yyrvGeWxJkF5GrwToA1FRWbJWUGjLJAh09xh4fUADGY1yXIXv26RnNKRCSqllwvhEN+f7dIY2zyOxPbysARGWhs+BaC3hLhxsH95zhKYXGmy1k8cCUqNh775sQmF+E1uwniDhp3N9ey8nceXMvFulyfwTkHeHX/sRiFVc=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>25sAJPUNV0RugNnS7uwGVGeC+IWvSWnGohVZexsAwkvkG4Ak2Gzw20OnTk5srmkAn0mv0qFXenwKpNjGXHjvSG6eN2H/oBMeM4h0kvdcsRup9EbaQMnuPx/HbGgyGWYjDlQH26QPwULg7BhVJGtOOBc4lyaM1p+asB5qc44wSdU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="5e780708d4a6f1f328b053d72d6cd72dafbd7b0108b7e7ce21d47e17ae02f42d" Description="" Url=""><as:assemblyIdentity name="Linkgenerator Tobit KNB.exe" version="1.0.0.0" publicKeyToken="84919ba4b7183775" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=OESTMANN\stefan.kaiser</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>ACHCDUh7jA5IKgnPDCJHysQZ0DXckcxeDLoHDWoKSj0=</DigestValue></Reference></SignedInfo><SignatureValue>v/A/CBtWoJINrpY4/LSnSemfr45yl3TtxmQ8prRmCKzT7g/QWGD/E3aA4XYdt81MdWcyjt9/kkDfy6NCudU77xh6FLEIKNvdEa2rKW5LgWWlRpv22zx1GzMlgDeBqZ2xQEwRdCjr049hdp86jgLq+LjlUvk2RseZIByN+UxoC9c=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>25sAJPUNV0RugNnS7uwGVGeC+IWvSWnGohVZexsAwkvkG4Ak2Gzw20OnTk5srmkAn0mv0qFXenwKpNjGXHjvSG6eN2H/oBMeM4h0kvdcsRup9EbaQMnuPx/HbGgyGWYjDlQH26QPwULg7BhVJGtOOBc4lyaM1p+asB5qc44wSdU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB8TCCAVqgAwIBAgIQbJPUyCxpVZ5EdmuPEhQ4pTANBgkqhkiG9w0BAQsFADA3MTUwMwYDVQQDHiwATwBFAFMAVABNAEEATgBOAFwAcwB0AGUAZgBhAG4ALgBrAGEAaQBzAGUAcjAeFw0xOTAxMjExNDEwMDRaFw0yMDAxMjEyMDEwMDRaMDcxNTAzBgNVBAMeLABPAEUAUwBUAE0AQQBOAE4AXABzAHQAZQBmAGEAbgAuAGsAYQBpAHMAZQByMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDbmwAk9Q1XRG6A2dLu7AZUZ4L4ha9JacaiFVl7GwDCS+QbgCTYbPDbQ6dOTmyuaQCfSa/SoVd6fAqk2MZceO9Ibp43Yf+gEx4ziHSS91yxG6n0RtpAye4/H8dsaDIZZiMOVAfbpA/BQuDsGFUka044FziXJozWn5qwHmpzjjBJ1QIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAE0unauXT+EuPgRaxJDD880zfGUzjU6meYn8BYZdvPdLSPeVikj1+f0j/wsroXihdM2nZHEfgRMDIdAxOwMtJ4Zf7939XsUjKjZIVJglo1ftxBWCoookZE6ltkSgx7Zy/FCq+ZFEMvXkzWpICavkY35Qh2p42OWbYihgDipUHvmO</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

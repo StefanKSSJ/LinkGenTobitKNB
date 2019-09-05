@@ -1,0 +1,12 @@
+C:\Users\stefan.kaiser\Documents\Visual Studio 2017\Projects\Linkgenerator Tobit KNB\Linkgenerator Tobit KNB\obj\Debug\Linkgenerator Tobit KNB.csprojAssemblyReference.cache
+C:\Users\stefan.kaiser\Documents\Visual Studio 2017\Projects\Linkgenerator Tobit KNB\Linkgenerator Tobit KNB\obj\Debug\Linkgenerator Tobit KNB.csproj.CoreCompileInputs.cache
+C:\Users\stefan.kaiser\Documents\Visual Studio 2017\Projects\Linkgenerator Tobit KNB\Linkgenerator Tobit KNB\bin\Debug\Linkgenerator Tobit KNB.exe.config
+C:\Users\stefan.kaiser\Documents\Visual Studio 2017\Projects\Linkgenerator Tobit KNB\Linkgenerator Tobit KNB\bin\Debug\Linkgenerator Tobit KNB.exe
+C:\Users\stefan.kaiser\Documents\Visual Studio 2017\Projects\Linkgenerator Tobit KNB\Linkgenerator Tobit KNB\bin\Debug\Linkgenerator Tobit KNB.pdb
+C:\Users\stefan.kaiser\Documents\Visual Studio 2017\Projects\Linkgenerator Tobit KNB\Linkgenerator Tobit KNB\obj\Debug\Linkgenerator Tobit KNB.exe
+C:\Users\stefan.kaiser\Documents\Visual Studio 2017\Projects\Linkgenerator Tobit KNB\Linkgenerator Tobit KNB\obj\Debug\Linkgenerator Tobit KNB.pdb
+C:\Users\stefan.kaiser\Documents\Visual Studio 2017\Projects\Linkgenerator Tobit KNB\Linkgenerator Tobit KNB\bin\Debug\Linkgenerator Tobit KNB.exe.manifest
+C:\Users\stefan.kaiser\Documents\Visual Studio 2017\Projects\Linkgenerator Tobit KNB\Linkgenerator Tobit KNB\bin\Debug\Linkgenerator Tobit KNB.application
+C:\Users\stefan.kaiser\Documents\Visual Studio 2017\Projects\Linkgenerator Tobit KNB\Linkgenerator Tobit KNB\obj\Debug\Linkgenerator Tobit KNB.TrustInfo.xml
+C:\Users\stefan.kaiser\Documents\Visual Studio 2017\Projects\Linkgenerator Tobit KNB\Linkgenerator Tobit KNB\obj\Debug\Linkgenerator Tobit KNB.exe.manifest
+C:\Users\stefan.kaiser\Documents\Visual Studio 2017\Projects\Linkgenerator Tobit KNB\Linkgenerator Tobit KNB\obj\Debug\Linkgenerator Tobit KNB.application
